@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+
+        <item>网盘</item>
+        <item>网址 </item>
+        <item>游戏</item>
+        <item>邮箱</item>
+        <item>软件</item>
+        <item>社交 </item>
+        <item>社区</item>
+        <item>其他 </item>
+    </string-array>
+    <string-array name="categoriesAll">
+        <item>item</item>
+        <item>网盘</item>
+        <item>网址 </item>
+        <item>游戏</item>
+        <item>邮箱</item>
+        <item>软件</item>
+        <item>社交 </item>
+        <item>社区</item>
+        <item>其他 </item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/updata"
+        android:orderInCategory="100"
+        android:title="更新"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:title="删除"
+        app:showAsAction="never" />
+    <!--<item
+         android:id="@+id/share"
+         android:orderInCategory="100"
+         android:title="发送给好友"
+         app:showAsAction="never" />
+     -->
+</menu>

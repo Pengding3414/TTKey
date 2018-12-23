@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_guide_menu"
+        android:orderInCategory="100"
+        android:title="@string/action_course"
+        app:showAsAction="never" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_menu_color"-->
+        <!--android:icon="@mipmap/ic_cst_palette_white_24dp"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="主题色"-->
+        <!--app:showAsAction="always" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_menu_save"-->
+        <!--android:icon="@android:drawable/ic_menu_save"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="保存"-->
+        <!--app:showAsAction="always" />-->
+
+</menu>

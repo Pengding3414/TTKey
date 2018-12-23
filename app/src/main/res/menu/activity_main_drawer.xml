@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu_title_one">
+        <menu>
+            <!--
+                        <item
+                            android:id="@+id/nav_backups"
+                            android:icon="@mipmap/ic_file_cloud_upload_grey_24dp"
+                            android:title="@string/menu_item_backups" />
+                        <item
+                            android:id="@+id/nav_reduction"
+                            android:icon="@mipmap/ic_file_cloud_download_grey_24dp"
+                            android:title="@string/menu_item_reduction" />
+                            -->
+            <!--<item
+                android:id="@+id/nav_info"
+                android:icon="@mipmap/ic_professional_translate"
+                android:title="我的信息" />-->
+
+            <item
+                android:id="@+id/nav_sync_data"
+                android:icon="@drawable/ic_sync_black_24dp"
+                android:title="@string/menu_item_syc" />
+            <!--<item-->
+                <!--android:id="@+id/nav_log"-->
+                <!--android:icon="@mipmap/ic_menu_nar_log"-->
+                <!--android:title="@string/menu_item_log" />-->
+
+            <item
+                android:id="@+id/nav_guide"
+                android:icon="@mipmap/ic_maps_local_offer_grey_24dp"
+                android:title="@string/menu_item_guide" />
+
+
+        </menu>
+    </item>
+    <item android:title="@string/menu_title_two">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_item_send" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@mipmap/ic_action_settings_grey_24dp"
+                android:title="@string/action_settings" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/ic_menu_nar_log"
+                android:title="@string/menu_item_about" />
+        </menu>
+    </item>
+
+</menu>

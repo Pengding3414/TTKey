@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dingpeng3414.ttkey.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <!--
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+
+     <RelativeLayout
+         android:id="@+id/user"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="#FFFFFF">
+
+                     <RelativeLayout
+                         android:id="@+id/rl_head"
+                         android:layout_width="70dp"
+                         android:layout_height="70dp"
+                         android:layout_margin="10dp">
+
+                         <ImageView
+                             android:id="@+id/head"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:src="@mipmap/ic_launcher" />
+
+         </RelativeLayout>
+
+         <LinearLayout
+             android:id="@+id/li_names"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="10dp"
+             android:orientation="vertical">
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="丁鹏"
+                 android:textSize="16sp" />
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:text="丁鹏丁鹏丁鹏丁鹏丁鹏丁鹏丁鹏丁鹏"
+                 android:textSize="12sp" />
+         </LinearLayout>
+
+     </RelativeLayout>
+
+     <LinearLayout
+         android:id="@+id/lin"
+         android:layout_width="match_parent"
+         android:layout_height="45dp"
+         android:layout_marginTop="1dp"
+         android:background="#FFFFFF"
+         android:orientation="horizontal">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1"
+             android:gravity="center_horizontal"
+             android:orientation="vertical">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="80" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="1dp"
+                 android:text="本地" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1"
+             android:gravity="center_horizontal"
+             android:orientation="vertical">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="680" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="1dp"
+                 android:text="云端" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_weight="1"
+             android:gravity="center_horizontal"
+             android:orientation="vertical">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="280" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="1dp"
+                 android:text="回收站" />
+         </LinearLayout>
+     </LinearLayout>
+
+     <GridView
+         android:id="@+id/gv_main"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:columnWidth="60dp"
+         android:horizontalSpacing="1dip"
+         android:numColumns="auto_fit"
+         android:verticalSpacing="1dip"></GridView>
+
+ </LinearLayout>
+
+ <Button
+     android:id="@+id/add_button"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_marginTop="20dp"
+     android:text="添加 KEY" />
+        -->
+</RelativeLayout>
