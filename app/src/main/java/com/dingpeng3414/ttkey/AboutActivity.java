@@ -6,7 +6,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 public class AboutActivity extends AppCompatActivity {
-
+    /**
+     * 关于
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
